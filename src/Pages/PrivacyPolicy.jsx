@@ -1,0 +1,1242 @@
+import React from 'react'
+import { NavLink } from 'react-router-dom';
+
+const PrivacyPolicy = () => {
+  return (
+    <>
+      <section className="mx-auto mt-10 mb-24 max-w-5xl text-center">
+        <h1 className="head-1">Privacy Policy</h1>
+      </section>
+
+      <section className="mx-auto my-16 w-[90%] max-w-[1400px] border-2 rounded-lg border-gray-300 bg-white dark:bg-zinc-700 p-5 shadow-xl max-lg:flex-col sm:p-10 xl:p-20">
+        <h1 className="text-xl font-bold">Last updated: 22-Nov-24</h1>
+        <div className="my-6 space-y-6 border-2 rounded-lg  border-gray-300 p-2 text-gray-800 dark:text-white sm:p-10 max-md:text-[15px] h-screen overflow-auto max-md:text-sm">
+          <h1 className="text-xl md:text-3xl font-bold">Purpose</h1>
+          <p>
+            This privacy policy is designed to help you understand how Teal
+            Climate, its brands, affiliates, and subsidiaries (“Teal Climate”,
+            “we”, “us”, or “our”) collects, uses, processes, and discloses your
+            personal information, and to help you understand and exercise your
+            privacy rights.
+          </p>
+          <p>
+            For additional information about the privacy choices you have
+            regarding your personal information, please review the{" "}
+            <NavLink to="/privacy&policy" className="text-blue-500 underline">
+              “your privacy choices and rights”
+            </NavLink>{" "}
+            section below. If you are a resident of California, please refer to
+            Section 13,{" "}
+            <NavLink to="/privacy&policy" className="text-blue-500 underline">
+              “supplemental notice for California residents”
+            </NavLink>{" "}
+            section below for information about the categories of personal
+            information we collect and your rights under California privacy
+            laws.
+          </p>
+          <p>
+            By using our services (as defined below), you agree that your
+            personal information will be handled as described in this privacy
+            policy. Your use of our services and any dispute over privacy is
+            subject to this privacy policy and our terms and conditions,
+            available{" "}
+            <NavLink to="/terms&conditions" className="text-blue-500 underline">
+              here
+            </NavLink>
+            , including their applicable terms governing limitations on damages
+            and the resolution of disputes.
+          </p>
+          <div>
+            <h1 className="text-xl md:text-3xl font-bold">Table of contents</h1>
+            <ol className="list-decimal ml-[2vmax] md:text-xl flex flex-col gap-2 mt-5 text-blue-500 underline  font-semibold">
+              <li>
+                <a href="#scope">Scope</a>
+              </li>
+              <li>
+                <a href="#sec2">Personal Information We Collect</a>
+              </li>
+              <li>
+                <a href="#sec3">How We Use Your Information</a>
+              </li>
+              <li>
+                <a href="#sec4">Disclosures of Personal Information</a>
+              </li>
+              <li>
+                <a href="#sec5">Your Privacy Choices and Rights</a>
+              </li>
+              <li>
+                <a href="#sec6">Retention of Personal Information</a>
+              </li>
+              <li>
+                <a href="#sec7">Security of Your Information</a>
+              </li>
+              <li>
+                <a href="#sec8">International Data Transfers</a>
+              </li>
+              <li>
+                <a href="#sec9">Children’s Information</a>
+              </li>
+              <li>
+                <a href="#sec10">Third Party Websites / Applications</a>
+              </li>
+              <li>
+                <a href="#sec11">Supervisory Authority</a>
+              </li>
+              <li>
+                <a href="#sec12">Contact Us</a>
+              </li>
+              <li>
+                <a href="#sec13">
+                  Supplemental Notice for California Residents
+                </a>
+              </li>
+            </ol>
+          </div>
+          <div className="flex flex-col gap-4" id="scope">
+            <h1 className="text-xl md:text-3xl font-bold">Scope</h1>
+            <p>
+              This Privacy Policy applies to personal information processed by
+              Persefoni in the course of our business, as collected from our
+              websites (the <b>“Site”</b>), applications, and our related online
+              and offline offerings (collectively, the <b>“Services”</b>).
+            </p>
+            <p>
+              <b>An Important Note.</b> This Privacy Policy does not apply to
+              any of the personal information that we process on behalf of our
+              customers through their use of our Services (“Customer Data”). Our
+              customers’ respective privacy policies govern their collection and
+              use of Customer Data. Our processing of Customer Data is governed
+              by the contracts that we have in place with our customers, not
+              this Privacy Policy. Please ensure that your use of the Services
+              complies with the terms of our contracts with our Customers and
+              our instructions to the Customers, which may include specific
+              guidance not to enter personal information in open text fields
+              where it is not requested or required to operate the Services. Any
+              questions or requests relating to Customer Data should be directed
+              to our customer.
+            </p>
+            <p>
+              <b>Changes to our Privacy Policy.</b> We may revise this Privacy
+              Policy from time to time at our sole discretion. If there are any
+              material changes to this Privacy Policy, we will notify you as
+              required by applicable law. You understand and agree that you will
+              be deemed to have accepted the updated Privacy Policy if you
+              continue to use our Services after the new Privacy Policy takes
+              effect.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4" id="sec2">
+            <h1 className="text-xl md:text-3xl font-bold">
+              Personal information we collect
+            </h1>
+            <p>
+              When you use our services, we collect the following categories of
+              personal information
+            </p>
+            <h1 className="font-bold">
+              Information you provide to us directly
+            </h1>
+            <p>
+              <b>Account creation.</b> When you create a user account, we
+              collect your name, title, email address, username, and password.
+              We may also collect your phone number and photo if you choose to
+              enter it.
+            </p>
+            <p>
+              <b>Communications with us.</b> When you request information about
+              our services, sign up for a newsletter, request customer or
+              technical support, or otherwise communicate with us, we may
+              collect personal information from you such as name, email address,
+              phone number, or mailing address.
+            </p>
+            <p>
+              <b>Customer service and support.</b> If you call or otherwise
+              interact with Teal Climate’s customer service and support, we may
+              collect the information you provide for our representatives. In
+              addition, we may record audio conferencing between you and our
+              representatives for training and quality assurance purposes.
+            </p>
+            <p>
+              <b>Interactive features.</b> Teal Climate may offer interactive
+              features such as commenting functionalities, forums, chat
+              services, and social media pages. Teal Climate may collect the
+              information you submit or make available through these interactive
+              features. Any information shared on the public sections of these
+              channels will be considered “public” and may not be subject to the
+              privacy protections referenced herein.
+            </p>
+            <p>
+              <b>Conferences, trade shows, and other events.</b> We may attend
+              conferences, trade shows, and other events where we collect
+              personal information from individuals who interact with or express
+              an interest in Teal Climate and/or the services. If you provide us
+              with any information on one of these events, we will use it for
+              the purposes for which it was collected.
+            </p>
+            <p>
+              <b>Surveys.</b> We may contact you to Participate in surveys. If
+              you decide to Participate, you may be asked to provide certain
+              information which may include personal information.
+            </p>
+            <p>
+              <b>Purchases.</b> We may collect personal information and details
+              associated with your purchases, including payment information. Any
+              payments made via our services are processed by third-party
+              payment processors. We do not directly collect or store any
+              payment card information entered through our services, but we may
+              receive information associated with your payment card information
+              (e.g., your billing details).
+            </p>
+            <p>
+              <b>Business development and strategic partnerships.</b> We may
+              collect personal information from individuals and third parties to
+              assess and pursue potential business opportunities.{" "}
+            </p>
+            <p>
+              <b>Online courses.</b> When you create a user account to access
+              online courses, such as carbon accounting essentials courses, we
+              collect your name, email address, username, and password.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <h1 className="text-xl md:text-3xl font-bold">
+              Information collected automatically
+            </h1>
+            <p>
+              We may collect certain information automatically when you use the
+              services. This information may include your internet protocol (IP)
+              address, user settings, IMEI, Mac address, technologies including
+              cookie identifiers, mobile advertising and other unique
+              identifiers, mobile carrier, details about your browser, operating
+              system or device, location information (including inferred
+              location based off your IP address), internet service provider,
+              pages that you visit before, during and after using the services,
+              information about the links you click, and other information about
+              how you use the services. Information we collect may be associated
+              with your account and the devices you use.
+            </p>
+            <p>
+              Technologies are functional, such as cookies, pixel tags and web
+              beacons, that enable small data files to be placed on your device
+              that allow us and our partners to record certain pieces of
+              information whenever you visit or interact with the services. We,
+              as well as third parties that may provide content, advertising, or
+              other functionality on the services, may use cookies, pixel tags,
+              web beacons and other technologies to automatically collect
+              information through the services.
+            </p>
+            <ul className="list-disc flex flex-col gap-3 ml-[2vmax]">
+              <li>
+                <b>Cookies.</b> Cookies are small text files placed in visitors’
+                device browsers to store their preferences. Most browsers allow
+                you to block and delete cookies. However, if you do that, the
+                services may not work properly.
+              </li>
+              <li>
+                <b>Pixel tags/web beacons.</b> A pixel tag (also known as a web
+                beacon) is a piece of code embedded on the services that collect
+                information about users’ engagement. The use of a pixel allows
+                us to record, for example, that a user has visited a particular
+                web page or clicked on a particular advertisement. We may also
+                include web beacons in e-mails to understand whether messages
+                have been opened, acted on, or forwarded.
+              </li>
+            </ul>
+            <p>
+              Please refer to Teal Climate's{" "}
+              <NavLink to="/cookie" className="text-blue-500 underline">
+                cookie declaration page
+              </NavLink>{" "}
+              for further information on the cookies utilized.{" "}
+            </p>
+            <p>
+              Our uses of such technologies fall into the following general
+              categories:
+            </p>
+            <ul className="list-disc flex flex-col gap-3 ml-[2vmax]">
+              <li>
+                <b>Operationally necessary.</b> This includes technologies that
+                allow you access to our services that are required to identify
+                irregular behavior, prevent fraudulent activity and improve
+                security or that allow you to make use of our functions.
+              </li>
+              <li>
+                <b>Performance related.</b> We may use technology to assess the
+                performance of our services, including as part of our analytic
+                practices to help us understand how our visitors use the
+                services.
+              </li>
+              <li>
+                <b>Functionality related.</b> We may use technologies that allow
+                us to offer you enhanced functionality when accessing or using
+                our services. This may include identifying you when you sign
+                into our services and keeping track of your specified
+                preferences or past pages viewed.
+              </li>
+              <li>
+                <b>Advertising or targeting related.</b> We may use first-party
+                or third-party technologies to develop and deliver content,
+                including ads relevant to your interests, on our services or on
+                third-party sites.
+              </li>
+              <li>
+                <b>Analytics.</b> We may use technologies and other third-party
+                tools to process analytics information on our services. These
+                technologies allow us to better understand how our services are
+                used and to continually improve and personalize our services.{" "}
+              </li>
+            </ul>
+            <p>
+              See “your privacy choices and rights” below to understand your
+              choices regarding these technologies.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4">
+            <h1 className="text-xl md:text-3xl font-bold">
+              Information from 3rd party services and other sources
+            </h1>
+            <p>
+              We may obtain information about you from other sources, including
+              through third-party services and other organizations. For example,
+              if you access or use our services through a third-party
+              application, such as a social networking service or a third-party
+              login service, we may collect information about you from that
+              third party that you have made available via your privacy
+              settings.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4" id="sec3">
+            <h1 className="text-xl md:text-3xl font-bold">
+              How we use your information
+            </h1>
+            <p>
+              We use your personal information for a variety of business
+              purposes, including to provide our services, for administrative
+              purposes, and to market our products and services. If you are from
+              a region that requires a legal basis for processing personal
+              information (such as the European Union (EU) or the United Kingdom
+              (UK)), our legal basis for collecting and using the personal
+              information described above will depend on the personal
+              information concerned and the specific context in which we collect
+              it. In general, we rely on the following legal bases for our
+              processing of personal information:
+            </p>
+            <ul className="list-disc flex flex-col gap-3 ml-[2vmax]">
+              <li>
+                <b>To fulfil a contract with you</b> – we may process personal
+                information when necessary to enter or perform a contract for
+                our services that you requested.
+              </li>
+              <li>
+                <b>Compliance with legal obligations</b> – we may process
+                personal information when necessary to comply with legal
+                obligations under applicable EU/UK or EU member state law.
+              </li>
+              <li>
+                <b>Consent</b> – we may process personal information when you
+                have given us your consent to do so for a particular purpose.
+                You have the right to withdraw your consent at any time by
+                changing your settings (where available) or contacting us at{" "}
+                <NavLink to="/contact" className="text-blue-500 underline">
+                  Info@tealclimate.com.
+                </NavLink>
+              </li>
+              <li>
+                <b>Legitimate interests</b> – we may process personal
+                information where we have a legitimate interest in doing so as
+                the controller. Before doing so, we consider the impact of our
+                processing activities on your fundamental rights and freedoms
+                and decide as to whether processing your personal information
+                will not adversely impact these rights and freedoms.
+              </li>
+            </ul>
+            <p>We use your personal information as follows:</p>
+            <h1 className="font-bold">
+              To provide the services or information requested.
+            </h1>
+            <ul className="list-disc flex flex-col gap-3 ml-[2vmax]">
+              <li>
+                Providing services on behalf of our customers, such as
+                maintaining or servicing accounts, providing customer service,
+                and verifying customer information.
+              </li>
+              <li>Managing your information and accounts.</li>
+              <li>
+                Processing your payment card and/or other financial information
+                to facilitate your use of the services.
+              </li>
+              <li>Responding to questions, comments, and other requests.</li>
+              <li>
+                Providing access to certain areas, functionalities, and features
+                of our services.{" "}
+              </li>
+              <li>
+                Using vendors and service providers to assist us in providing
+                our services; and
+              </li>
+              <li>Answering requests for customer or technical support.</li>
+            </ul>
+            <p>
+              Our legal basis for the above purposes is that the processing is
+              necessary to deliver our services to you under the terms of the
+              contract to which we agreed.
+            </p>
+            <h1 className="font-bold">Administrative purposes.</h1>
+            <ul className="list-disc flex flex-col gap-3 ml-[2vmax]">
+              <li>
+                Conducting direct marketing, research and development (including
+                marketing research), network and information security, and fraud
+                prevention.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: our legitimate interests or your
+                  consent.
+                </p>
+              </li>
+              <li>
+                Detecting security incidents, protecting against malicious,
+                deceptive, fraudulent or illegal activity, and prosecuting those
+                responsible for that activity.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: our legitimate interests.
+                </p>
+              </li>
+              <li>
+                Measuring interest and engagement in the services.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: our legitimate interests.
+                </p>
+              </li>
+              <li>
+                Developing new products and services.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: our legitimate interests.
+                </p>
+              </li>
+              <li>
+                Improving, upgrading or enhancing our products and services.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: our legitimate interests.
+                </p>
+              </li>
+              <li>
+                Allowing you to register for events.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: our legitimate interests.
+                </p>
+              </li>
+              <li>
+                Ensuring internal quality control.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: our legitimate interests.
+                </p>
+              </li>
+              <li>
+                Authenticating and verifying an individual’s identity, including
+                requests to exercise your rights under this privacy policy.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: compliance with legal obligation.
+                </p>
+              </li>
+              <li>
+                Debugging to identify and repair errors with our services.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: our legitimate interests.
+                </p>
+              </li>
+              <li>
+                Auditing related to interactions, transactions, and other
+                compliance activities.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: our legitimate interests or compliance
+                  with legal obligation.
+                </p>
+              </li>
+              <li>
+                Communicating with you about activities on the services and
+                changes to our agreements.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: our legitimate interests or necessities
+                  to perform a contract.
+                </p>
+              </li>
+              <li>
+                Sharing personal information with third parties as needed to
+                provide the services.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: necessary to fulfil a contract.
+                </p>
+              </li>
+              <li>
+                Preventing and prosecuting potentially prohibited or illegal
+                activities.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: our legitimate interests or compliance
+                  with legal obligation.
+                </p>
+              </li>
+              <li>
+                Enforcing our agreements; and
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: necessary to fulfil a contract.
+                </p>
+              </li>
+              <li>
+                Carrying out activities that are required to comply with our
+                legal obligations.
+                <p className="ml-[2vmax]">
+                  <b>o</b> Legal basis: compliance with legal obligation.
+                </p>
+              </li>
+            </ul>
+            <p className="font-bold">Marketing our services.</p>
+            <ul className="list-disc flex flex-col gap-3 ml-[2vmax]">
+              <li>
+                To tailor and provide you with content and advertisements. We
+                may provide you with these materials as permitted by applicable
+                law. Some of the ways we market to you include email campaigns,
+                custom audiences advertising, webinars, social media, and
+                “interest-based” or “personalized advertising.”
+              </li>
+              <li>
+                Legal basis: generally, your consent, which you may withdraw at
+                any time. However, if we rely on our legitimate interests to
+                market our services to you, you have the right to object to our
+                processing of your personal information for marketing purposes.
+              </li>
+              <li>
+                To send you promotional materials, including information about
+                Teal Climate’s events, webinars, and presentations.
+              </li>
+              <li>
+                Legal basis: generally, your consent, which you may withdraw at
+                any time. However, if we rely on our legitimate interests to
+                market our services to you, you have the right to object to our
+                processing of your personal information for marketing purposes.
+              </li>
+            </ul>
+            <p>
+              If you have any questions about our marketing practices or if you
+              would like to opt out of the use of your personal information for
+              marketing purposes, you may contact us at{" "}
+              <NavLink to="/contact" className="text-blue-500 underline"></NavLink>
+            </p>
+            <p>
+              <b>De-identified and aggregated information creation and use.</b>{" "}
+              We may use personal information and other information about you to
+              create de-identified and/or aggregated information, such as
+              de-identified demographic information, de-identified location
+              information, de-identified or aggregated trends, reports, or
+              statistics, or other analyses. We may use and disclose such
+              information in several ways, including research, internal
+              analysis, analytics, and any other legally permissible purposes.
+              Where we use, disclose or process de-identified data (data that is
+              no longer reasonably linked or linkable to an identified or
+              identifiable natural person, household, or personal or household
+              device) we will maintain and use the information in de-identified
+              form and not to attempt to re- identify the information, except in
+              order to determine whether our deidentification processes are
+              reasonable and adequate pursuant to applicable privacy laws.
+            </p>
+            <ul className="list-disc flex flex-col gap-3 ml-[2vmax]">
+              <li>Legal basis: our legitimate interests.</li>
+            </ul>
+            <p>
+              <b>Sharing content with friends or colleagues.</b> Our services
+              may offer various tools and functionalities to share content on
+              the services with others. For example, we may allow you to provide
+              information about third parties through our referral services. Our
+              referral services may allow you to forward or share certain
+              content with third parties, such as an email inviting a third
+              party to evaluate or use our services.
+            </p>
+            <ul className="list-disc flex flex-col gap-3 ml-[2vmax]">
+              <li>
+                Legal basis: for this processing activity, to the extent it
+                involves sharing your personal information with third parties,
+                is your consent (i.e., by using functionalities in our services
+                to share your personal information with third parties you are
+                consenting to us doing so). You can withdraw your consent by
+                changing your settings or disabling such functionalities.
+              </li>
+            </ul>
+            <p>
+              <b>Other purposes.</b> Teal Climate may use personal information
+              for other purposes that are clearly disclosed to you at the time
+              you provide personal information.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4" id="sec4">
+            <h1 className="text-xl md:text-3xl font-bold">
+              Disclosures of personal information
+            </h1>
+            <p>
+              <b>Service providers.</b> We may share any personal information we
+              collect about you with our third-party service providers. The
+              types of service providers to whom we entrust personal information
+              generally include service providers for:{" "}
+            </p>
+            <ol className="list-decimal ml-[2vmax] flex flex-col gap-3">
+              <li>The provision of the services. </li>
+              <li>
+                The provision of information, products, and other services you
+                have requested.{" "}
+              </li>
+              <li>Marketing and advertising. </li>
+              <li>Payment processing. </li>
+              <li>Customer service activities. </li>
+              <li>And the provision of it and related services. </li>
+            </ol>
+            <p>
+              Additionally, we store your personal data with our third-party
+              service providers under the legal basis to provide services and
+              our legitimate interest to maintain security of the services
+              provided.{" "}
+            </p>
+            <p>
+              <b>Affiliates.</b> We may share personal information with our
+              affiliated entities. We utilize Teal Climate wholly owned
+              subsidiaries in various parts of the world to provide marketing
+              and services, therefore if you provide consent to be contacted,
+              your data will be shared with that wholly owned subsidiary.
+            </p>
+            <p>
+              <b>Business partners.</b> We may provide personal information to
+              business partners to provide you with a product or service you
+              have requested. We may also provide personal information to
+              business partners with whom we jointly offer products or services.
+              Data shared with our business partners is conducted under the
+              legal basis of consent to be contacted for the services and/or to
+              provide services.
+            </p>
+            <p>
+              <b>Interest-based or personalized advertising.</b> Through our
+              services, Teal Climate may allow third party advertising partners
+              to set technologies and other tracking tools to collect
+              information regarding your activities and your device (e.g., your
+              IP address, cookie identifiers, page(s) visited, location, time of
+              day). These advertising partners may use this information (and
+              similar information collected from other services) for the purpose
+              of delivering personalized advertisements to you when you visit
+              third party services within their networks. This practice is
+              commonly referred to as “interest-based advertising” or
+              “personalized advertising” and is conducted under the legal basis
+              of legitimate interest. These cookies are optional, and customers
+              have the right to disable these cookies via the services.
+            </p>
+            <p>
+              <b>Products, APIS, and software development kits.</b> We may use
+              third party products, APIS, and software development kits (“SDKS”)
+              as part of the functionality of our services. Products, APIS, and
+              SDKS may allow third parties including advertising partners to
+              collect your personal information to provide content that is more
+              relevant to you. Data shared with products, APIS, and SDKS is
+              conducted under the legal basis of performing our contract with
+              you for the services. For more information about our use of
+              products, APIS and SDKS, please contact us at{" "}
+              <NavLink to="/contact" className="text-blue-500 underline"></NavLink>
+            </p>
+            <p>
+              <b>Disclosures to protect us or others.</b> We may access,
+              preserve, and disclose your personal information if we believe
+              doing so is required or appropriate to: (i) comply with law
+              enforcement or national security requests and legal process, such
+              as a court order or subpoena; (ii) protect your, our or others’
+              rights, property, or safety; (iii) to collect amounts owed to us;
+              (iv) when we believe disclosure is necessary or appropriate to
+              prevent financial loss or in connection with an investigation or
+              prosecution of suspected or actual illegal activity; or (v) if we,
+              in good faith, believe that disclosure is otherwise necessary or
+              advisable.{" "}
+            </p>
+            <p>
+              <b>Merger, sale, or other asset transfers.</b> If we are involved
+              in a merger, acquisition, financing due diligence, reorganization,
+              bankruptcy, receivership, purchase or sale of assets, or
+              transition of service to another provider, then your information
+              may be sold or transferred as part of such a transaction as
+              permitted by law and/or contract.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4" id="sec5">
+            <h1 className="text-xl md:text-3xl font-bold">
+              Your privacy choices and rights
+            </h1>
+            <p>
+              <b>General.</b> You may have the right to object to or opt out of
+              certain uses of your personal information. Where you have
+              consented to the processing of your personal information, you may
+              withdraw that consent at any time by contacting us at{" "}
+              <NavLink to="/contact" className="text-blue-500 underline"></NavLink>
+            </p>
+            <p>
+              <b>Email communications.</b> If you receive an unwanted email from
+              us, you can use the unsubscribe link found at the bottom of the
+              email or email us at{" "}
+              <NavLink to="/contact" className="text-blue-500 underline"></NavLink>{" "}
+              with the subject line “opt-out.” Note that you will continue to
+              receive transaction-related emails regarding products or services
+              you have requested. We may also send you certain non-promotional
+              communications regarding us and our services, and you will not be
+              able to opt out of those communications (e.g., communications
+              regarding the services or updates to this privacy policy).
+            </p>
+            <p>
+              Technologies (cookies) and personalized advertising. You may stop
+              or restrict the placement of technologies on your device or remove
+              them by adjusting your preferences as your browser or device
+              permits. Please note that cookie-based opt-outs are not effective
+              on mobile applications. However, you may opt-out of personalized
+              advertisements on some mobile applications by following the
+              instructions for{" "}
+              <a
+                href="https://support.google.com/googleplay/android-developer/answer/6048248?hl=en"
+                target="_blank"
+                className="text-blue-500 underline"
+              >
+                Android
+              </a>{" "}
+              and
+              <a
+                href="https://support.apple.com/en-us/105131"
+                target="_blank"
+                className="text-blue-500 underline"
+              >
+                iOS
+              </a>
+              .
+            </p>
+            <p>
+              The online advertising industry also provides websites from which
+              you may opt-out of receiving targeted ads from advertisers that
+              Participate in self-regulatory programs. You can access these, and
+              also learn more about targeted advertising and consumer choice and
+              privacy, at{" "}
+              <a
+                href="https://thenai.org/opt-out/"
+                className="text-blue-500 underline"
+              >
+                thenai.org/opt-out
+              </a>
+              ,{" "}
+              <a
+                href="https://www.youronlinechoices.eu/"
+                className="text-blue-500 underline"
+              >
+                youronlinechoices.eu
+              </a>{" "}
+              and{" "}
+              <a
+                href="https://optout.aboutads.info/?c=2&lang=EN"
+                className="text-blue-500 underline"
+              >
+                aboutads.info/choices
+              </a>
+              .
+            </p>
+            <p>
+              Please note you must separately opt out in each browser and on
+              each device.
+            </p>
+            <p>
+              <b>“Do Not Track”.</b> Do not track <b>(“DNT”)</b> is a privacy
+              preference that users can set in certain web browsers. Please note
+              that except as otherwise described in this privacy policy, we do
+              not respond to or honor DNT signals or similar mechanisms
+              transmitted by web browsers.
+            </p>
+            <p className="font-bold">
+              Individual privacy rights in personal information
+            </p>
+            <p>
+              in accordance with applicable law, you may have the right to:{" "}
+            </p>
+            <ol
+              className="list-decimal ml-[2vmax]  flex flex-col gap-3"
+              style={{ listStyle: "upper-roman" }}
+            >
+              <li>
+                <b>Access personal information; including:</b> (I) confirming
+                whether we are processing your personal information; (ii)
+                obtaining access to or a copy of your personal information; and
+                (iii) receiving an electronic copy of personal information that
+                you have provided to us or ask us to send that information to
+                another company (the “right of data portability”).{" "}
+              </li>
+              <li>
+                <b>Request restriction of, or object to,</b> our uses of your
+                personal information.{" "}
+              </li>
+              <li>
+                <b>Request correction</b> or amendment of your personal
+                information where it is inaccurate, untrue, incomplete. In some
+                cases, we may provide self-service tools that enable you to
+                update your personal information.{" "}
+              </li>
+              <li>
+                <b>Request deletion or erasure</b> of personal information,
+                subject to certain exceptions prescribed by law.
+              </li>
+              <li>
+                <b>Withdraw your consent</b> to our processing of your personal
+                information.{" "}
+              </li>
+            </ol>
+            <p>
+              If you would like to exercise any of these rights, please contact
+              us at{" "}
+              <NavLink to="/contact" className="text-blue-500 underline">
+                Info@tealclimate.com
+              </NavLink>
+              .
+            </p>
+            <p>
+              We will process such requests in accordance with applicable laws.
+              To protect your privacy, Teal Climate will take steps to verify
+              your identity before fulfilling your request.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4" id="sec6">
+            <h1 className="text-xl md:text-3xl font-bold">
+              Retention of personal information
+            </h1>
+            <p>
+              We retain the personal information we receive as described in this
+              privacy policy for as long as you use our services or as necessary
+              to fulfill the purpose(s) for which it was collected, provide our
+              services, resolve disputes, establish legal defenses, conduct
+              audits, pursue legitimate business purposes, enforce our
+              agreements, and comply with applicable laws.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4" id="sec7">
+            <h1 className="text-xl md:text-3xl font-bold">
+              Security of your information
+            </h1>
+            <p>
+              We take steps to ensure that your information is treated securely
+              and in accordance with this privacy policy. Unfortunately, the
+              internet cannot be guaranteed to be 100% secure, and we cannot
+              ensure or warrant the security of any information you provide to
+              us.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4" id="sec8">
+            <h1 className="text-xl md:text-3xl font-bold">
+              International data transfers{" "}
+            </h1>
+            <p>
+              All information processed by us may be transferred, processed, and
+              stored anywhere in the world, including, but not limited to, the
+              United States or other countries, which may have data protection
+              laws that are different from, or less protective than, the laws
+              where you live. We endeavor to safeguard your information
+              consistent with the requirements of applicable laws.
+            </p>
+            <p>
+              If we transfer personal information which originates in the
+              European economic area, Switzerland, and/or the United kingdom to
+              a country that has not been found to provide an adequate level of
+              protection under applicable data protection laws, we may use the{" "}
+              <a
+                href="https://ec.europa.eu/info/law/law-topic/data-protection/international-dimension-data-protection/standard-contractual-clauses-scc/standard-contractual-clauses-international-transfers_en"
+                className="text-blue-500 underline"
+              >
+                EU standard contractual clauses
+              </a>{" "}
+              and/or the UK international data transfer addendum to support such
+              transfer.{" "}
+            </p>
+            <p>
+              For more information about the safeguards we use for international
+              transfers of your personal information, please contact us as set
+              forth below.{" "}
+            </p>
+          </div>
+          <div className="flex flex-col gap-4" id="sec9">
+            <h1 className="text-xl md:text-3xl font-bold">
+              Children's information{" "}
+            </h1>
+            <p>
+              Children's information The services are not directed to children
+              under 13 (or other age as required by local law), and we do not
+              knowingly collect personal information from children. If you learn
+              that your child has provided us with personal information without
+              your consent, you may contact us as set forth below. If we learn
+              that we have collected any child’s personal information in
+              violation of applicable law, we will promptly take steps to delete
+              such information.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4" id="sec10">
+            <h1 className="text-xl md:text-3xl font-bold">
+              Third party websites / applications{" "}
+            </h1>
+            <p>
+              The services may contain links to other websites/applications and
+              other websites/applications may reference or link to our services.
+              These third-party services are not controlled by us. We encourage
+              our users to read the privacy policies of each website and
+              application with which they interact. We do not endorse, screen or
+              approve, and are not responsible for the privacy practices or
+              content of such other websites or applications. Visiting these
+              other websites or applications is at your own risk.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4" id="sec11">
+            <h1 className="text-xl md:text-3xl font-bold">
+              Supervisory authority
+            </h1>
+            <p>
+              If you are in the European economic area, you have the right to
+              lodge a complaint with a supervisory authority if you believe our
+              processing of your personal information violates applicable law.
+            </p>
+          </div>
+          <div className="flex flex-col gap-4" id="sec12">
+            <h1 className="text-xl md:text-3xl font-bold">Contact us</h1>
+            <p>
+              If you have any questions about our privacy practices or this
+              privacy policy, please contact us at:
+            </p>
+            <h1 className="font-bold text-lg">Teal Climate.</h1>
+            <h1 className="font-bold text-lg">16-550 Brealey Drive </h1>
+            <h1 className="font-bold text-lg">Peterborough, Ontario</h1>
+            <h1 className="font-bold text-lg">K9K 2R7, Canada</h1>
+            <NavLink to="/contact"
+              className="font-bold text-lg text-blue-500 underline"
+            >
+              Info@tealclimate.com
+            </NavLink>
+          </div>
+          <div className="flex flex-col gap-4" id="sec13">
+            <h1 className="text-xl md:text-3xl font-bold">
+              Supplemental notice for California residents
+            </h1>
+            <p>
+              This supplemental notice for California residents provides
+              additional information for California residents and describes our
+              information practices pursuant to applicable California privacy
+              laws, including the California consumer privacy act (“CCPA”). To
+              the extent you are a California resident, and we collect “personal
+              information” subject to the CCPA, the following applies. This
+              section does not address or apply to our handling of publicly
+              available information or personal information that is otherwise
+              exempt from the CCPA.
+            </p>
+            <h1 className="font-bold">
+              Categories of personal information collected and disclosed
+            </h1>
+            <p>
+              The following list identifies the categories of personal
+              information we may collect about you (and may have collected in
+              the prior 12 months), as defined by the CCPA, as well as the
+              categories of third parties to whom we may disclose this
+              information for a business or commercial purpose. Depending on how
+              you use the services, we may collect and disclose the following
+              categories of personal information:
+            </p>
+            <p>
+              <b>Identifiers</b> ,such as full name, email address, phone
+              number, username, alias, IP address, unique personal identifier,
+              online identifier, city, and state, or other similar identifiers.
+              The third parties to whom we may disclose this information for a
+              business or commercial purpose include:
+            </p>
+            <ol className="list-disc ml-[2vmax] flex flex-col gap-3">
+              <li>Advisors and agents. </li>
+              <li>Business partners. </li>
+              <li>Affiliates and subsidiaries. </li>
+              <li>Regulators, government entities, and law enforcement. </li>
+              <li>Advertising partners. </li>
+              <li>Data analytics providers. </li>
+              <li>Others as required by law. </li>
+            </ol>
+            <p>
+              <b>Internet or other electronic network activity</b>, which
+              includes, but is not limited to, browsing history, clickstream
+              data, search history, and information regarding interactions with
+              our site and the services, advertisements, or emails, including
+              other usage data related to your use of any of our services or
+              other similar online services. The third parties to whom we may
+              disclose this information for a business or commercial purpose
+              include:
+            </p>
+            <ol className="list-disc ml-[2vmax] flex flex-col gap-3">
+              <li>Affiliates and subsidiaries</li>
+              <li>Regulators, government entities, and law enforcement </li>
+              <li>Advertising partners</li>
+              <li>Data analytics providers</li>
+              <li>Social networks</li>
+              <li>Others as required by law</li>
+            </ol>
+            <p>
+              <b>Location data</b>, such as general location information about a
+              particular individual or device. The third parties to whom we may
+              disclose this information for a business or commercial purpose
+              include:
+            </p>
+            <ol className="list-disc ml-[2vmax] flex flex-col gap-3">
+              <li>Affiliates and subsidiaries</li>
+              <li>Regulators, government entities, and law enforcement</li>
+              <li>Data analytics providers</li>
+              <li>Others as required by law</li>
+            </ol>
+            <p>
+              <b>Audio, electronic, visual, or similar information</b>, which
+              includes, but is not limited to, information collected via call
+              recordings if you are interacting with us in a customer service
+              capacity or if you call us on a recorded line, recorded meetings
+              and webinars, videos, photographs, and user profile images. The
+              third parties to whom we may disclose this information for a
+              business or commercial purpose include:
+            </p>
+            <ol className="list-disc ml-[2vmax] flex flex-col gap-3">
+              <li>Advisors and agents</li>
+              <li>Affiliates and subsidiaries</li>
+              <li>Business partners</li>
+              <li>Regulators, government entities, and law enforcement</li>
+              <li>Others as required by law</li>
+            </ol>
+            <p>
+              <b>Professional or employment-related information</b>, such as job
+              title, company name, business email, business phone number,
+              business location, and other similar professional-related
+              information. The third parties to whom we may disclose this
+              information for a business or commercial purpose include:
+            </p>
+            <ol className="list-disc ml-[2vmax] flex flex-col gap-3">
+              <li>Advisors and agents</li>
+              <li>Affiliates and subsidiaries</li>
+              <li>Business partners</li>
+              <li>Regulators, government entities, and law enforcement</li>
+              <li>Others as required by law</li>
+            </ol>
+            <p>
+              <b>Protected classNameifications</b>, which we may collect in
+              limited circumstances, such as gender, age, and date of birth. The
+              third parties to whom we may disclose this information for a
+              business or commercial purpose include:
+            </p>
+            <ol className="list-disc ml-[2vmax] flex flex-col gap-3">
+              <li>Advisors and agents</li>
+              <li>Affiliates and subsidiaries</li>
+              <li>Regulators, government entities, and law enforcement</li>
+              <li>Others as required by law</li>
+            </ol>
+            <p>
+              <b>Inferences</b>, such as inferences drawn from other personal
+              information about a consumer reflecting the consumer’s
+              preferences, characteristics, behaviors, attitudes, abilities, and
+              aptitudes. The third parties to whom we may disclose this
+              information for a business or commercial purpose include:
+            </p>
+            <ol className="list-disc ml-[2vmax] flex flex-col gap-3">
+              <li>Affiliates and subsidiaries</li>
+              <li>Business partners</li>
+              <li>Regulators, government entities, and law enforcement</li>
+              <li>Advertising partners</li>
+              <li>Data analytics providers</li>
+              <li>Others as required by law</li>
+            </ol>
+            <p>
+              <b>Sources of personal information.</b> We generally collect
+              personal information from the following categories of sources:
+              directly or indirectly from you; affiliates and subsidiaries;
+              business partners; vendors and service providers; internet service
+              providers; operating systems and platforms; social media
+              platforms; and marketing, advertising, and data analytics
+              providers.
+            </p>
+            <p>
+              <b>Purposes of collection, use, and disclosure.</b> As described
+              above in section 3. How we use your information and section 4.
+              Disclosures of personal information, in general, we may collect,
+              use, disclose, and otherwise process personal information for the
+              following business or commercial purposes and as otherwise
+              directed or consented to by you:
+            </p>
+            <ol className="list-disc ml-[2vmax] flex flex-col gap-3">
+              <li>To perform a contract with you</li>
+              <li>To comply with our legal obligations</li>
+              <li>For our legitimate interests</li>
+              <li>To provide the services or information requested</li>
+              <li>For administrative purposes</li>
+              <li>For marketing and advertising</li>
+              <li>To create de-identified and/or aggregated information</li>
+              <li>To share content with your friends or colleagues</li>
+              <li>To protect us or others</li>
+              <li>In the case of a merger, sale, or other asset transfers</li>
+              <li>
+                Other purposes clearly disclosed to you at the time you provide
+                your personal information
+              </li>
+            </ol>
+            <p>
+              <b>Sensitive personal information.</b> We do not collect, use, or
+              disclose “sensitive personal information” beyond the purposes
+              authorized by the CCPA.{" "}
+            </p>
+            <p>
+              <b>Retention.</b> We retain the personal information we receive as
+              described in this privacy policy for as long as you use our
+              services or as necessary to fulfill the purpose(s) for which it
+              was collected, provide our services, resolve disputes, establish
+              legal defenses, conduct audits, pursue legitimate business
+              purposes, enforce our agreements, and comply with applicable laws.
+              In some cases, rather than delete your personal information, we
+              may de-identify or aggregate it and use it in compliance with the
+              CCPA.
+            </p>
+            <p>
+              <b>Sales and sharing of personal information.</b> The CCPA defines
+              “sale” as disclosing or making available personal information to a
+              third-party in exchange for monetary or other valuable
+              consideration, and “sharing” includes disclosing or making
+              available personal information to a third-party for purposes of
+              cross-context behavioral advertising. While we do not disclose
+              personal information to third parties in exchange for monetary
+              compensation, we may “sell” or “share” the following categories of
+              personal information: identifiers, internet and network activity
+              information, and commercial information. We may disclose these
+              categories to third-party advertising networks, analytics
+              providers, and social networks for purposes of marketing and
+              advertising and to improve and measure our ad campaigns. We do not
+              sell or share sensitive personal information, nor do we sell or
+              share personal information about individuals we know are under age
+              sixteen (16).
+            </p>
+            <p>
+              <b>Privacy rights for California residents.</b> The CCPA provides
+              California residents with specific rights regarding personal
+              information. Subject to certain conditions and exceptions,
+              California residents have the following rights with respect to
+              their personal information:
+            </p>
+            <ol className="list-disc ml-[2vmax] flex flex-col gap-3">
+              <li>
+                <b>Right to know.</b> You have the right to request: (i) the
+                categories or personal information we collected about you; (ii)
+                the categories of sources from which the personal information is
+                collected; (iii) our business or commercial purposes for
+                collecting, selling, or sharing personal information; (iv) the
+                categories of third parties to whom we have disclosed personal
+                information; and (v) a copy of the specific pieces of personal
+                information we have collected about you.
+              </li>
+              <li>
+                <b>Right to delete.</b> You have the right to request we delete
+                personal information we have collected from you.
+              </li>
+              <li>
+                <b>Right to correct.</b> You have the right to request that we
+                correct inaccuracies in your personal information.
+              </li>
+              <li>
+                <b>Right to opt-out of sales and sharing.</b> You have the right
+                to opt-out of “sales” and “sharing” of your personal
+                information, as those terms are defined under the CCPA.
+              </li>
+              <li>
+                <b>Right to limit use and disclosure.</b> You have the right to
+                limit the use and disclose of your sensitive personal
+                information. We do not use or disclose sensitive personal
+                information beyond the purposes authorized by the CCPA; thus,
+                this right is not available to California residents.
+              </li>
+              <li>
+                <b>Right to non-discrimination.</b> You have the right not to be
+                subjected to discriminatory treatment for exercising any of the
+                rights described in this section.
+              </li>
+            </ol>
+            <p>
+              <b>Submitting privacy requests.</b> California residents may
+              exercise their CCPA privacy rights as set forth below:
+            </p>
+            <ol className="list-disc ml-[2vmax] flex flex-col gap-3">
+              <li>
+                <b>Right to know, delete, and correct.</b> California residents
+                may submit CCPA request to access/know, delete, and correct
+                their personal information by emailing us at{" "}
+                <NavLink to="/contact" className="text-blue-500 underline">
+                  Info@tealclimate.com
+                </NavLink>{" "}
+                or by contacting us as set forth in the “contact us” section
+                below.
+              </li>
+              <li>
+                <b>Authorized agent.</b> Only you, or someone legally authorized
+                to act on your behalf, may make a verifiable consumer request
+                related to your personal information. You may also make a
+                verifiable consumer request on behalf of your minor child. To
+                authorize an agent, provide written authorization signed by you
+                and your designated agent and contact us as set forth in{" "}
+                <NavLink to="/contact" className="text-blue-500 underline">
+                  “contact us”
+                </NavLink>{" "}
+                below for additional instructions.
+              </li>
+              <li>
+                <b>Verification.</b> To protect your privacy, we will take steps
+                to reasonably verify your identity before fulfilling your
+                request. These steps may involve asking you to provide
+                sufficient information that allows us to reasonably verify you
+                are the person about whom we collected personal information or
+                an authorized representative, or to answer questions regarding
+                your account and use of our services. In some cases, we may
+                request additional information to verify your identity, or where
+                necessary to process your request. If we are unable to verify
+                your identity after a good faith attempt, we may deny the
+                request and, if so, will explain the basis for the denial.
+              </li>
+              <li>
+                <b>Right to opt-out of sales and sharing.</b> To exercise your
+                right to opt-out of the “sale” or “sharing” of your personal
+                information, you may do so via our{" "}
+                <NavLink to="/cookie" className="text-blue-500 underline">
+                  cookie preference manager
+                </NavLink>
+                . We will apply you opt out based upon the personal information
+                in our records that is linked or reasonably linkable to the
+                information provided in your request.
+              </li>
+            </ol>
+            <p>
+              In addition, if we detect that your browser or device is
+              transmitting an opt-out preference signal, such as the “global
+              privacy control” or “GPC” signal, we will opt that browser or
+              device out of cookies that result in a “sale” or “sharing” of your
+              personal information. If you come to our site or use our services
+              from a different device or from a different browser on the same
+              device, you will need to opt-out, or use an opt-out preference
+              signal, for that browser and/or device as well. More information
+              about GPC is available at:{" "}
+              <a
+                href="https://globalprivacycontrol.org/"
+                target="_blank"
+                className="text-blue-500 underline"
+              >
+                https://globalprivacycontrol.org/
+              </a>
+              .{" "}
+            </p>
+            <p>
+              If you have any questions about our privacy practices or this
+              privacy policy, please contact us as noted above in{" "}
+              <b>
+                section 12.{" "}
+                <NavLink to="/contact" className="text-blue-500 underline">
+                  Contact us
+                </NavLink>
+              </b>
+              .
+            </p>
+          </div>
+        </div>
+        <h1 className="text-xl font-bold">End of privacy and policy</h1>
+      </section>
+    </>
+  );
+}
+
+export default PrivacyPolicy;

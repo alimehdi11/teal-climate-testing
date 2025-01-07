@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Inter:wght@400;500;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply leading-[normal] m-0;
+    font-family: "Poppins";
+}
+
+.btn-primary{
+    @apply inline-block px-4 lg:w-[12vmax] max-sm:text-sm max-w-32  py-2 rounded-lg font-medium hover:bg-tc-blue hover:text-white text-center duration-300 dark:hover:bg-tc-dark-blue ;
+}
+
+.btn-secondary{
+  @apply mt-14 inline-block rounded-lg bg-tc-light-blue px-6 py-3 max-sm:text-sm font-semibold text-gray-800 shadow-md transition hover:bg-gray-100 max-md:mt-7 sm:px-10 
+}
+
+.btn-tertiary{
+    @apply rounded-lg bg-white px-3 py-3 text-sm font-semibold text-gray-800 shadow-md transition hover:bg-gray-100 sm:px-6 max-md:text-sm sm:text-lg
+}
+
+.container {
+    @apply max-w-[80vw] w-[90%] mx-auto;
+}
+
+.head-1{
+    @apply text-[clamp(1.0625rem,0.3906rem+3.3594vw,3.75rem)] lg:leading-[68px] font-bold;
+}
+
+.head-2{
+    @apply text-[clamp(1.0625rem,0.7656rem+1.4844vw,2.25rem)];
+}
+.head-3{
+    @apply text-[clamp(1.0625rem,0.8906rem+0.8594vw,1.75rem)] font-medium;
+}
+
+
